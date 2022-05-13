@@ -1,7 +1,7 @@
 pipeline{
    agent any
 	parameters {
-			choice choices: ['main', 'B1', 'B2'], name: 'branch_name'
+			choice choices: ['main', 'B1', 'B2','B3'], name: 'branch_name'
 	}
 	stages{
 		stage("One"){
